@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Services">
+        <menu>
+            <item
+                android:id="@+id/consultation"
+                android:title="Consultation"
+                android:icon="@drawable/baseline_event_note_24"
+                />
+
+            <item
+                android:id="@+id/equipment"
+                android:title="Equipments"
+                android:icon="@drawable/baseline_handyman_24"/>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/setting_fill"/>
+
+    <item
+        android:id="@+id/my_appointment"
+        android:title="My Appointments"
+        android:icon="@drawable/baseline_edit_calendar_24"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout_fill"/>
+
+
+</menu>

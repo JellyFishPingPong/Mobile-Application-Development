@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="report_reasons">
+        <item>Hate speech</item>
+        <item>False information</item>
+        <item>Bullying or harassment</item>
+        <item>Vulgar or offensive language</item>
+        <item>It\'s spam</item>
+    </string-array>
+</resources>

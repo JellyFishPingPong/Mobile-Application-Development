@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="Password and Security">
+        <menu>
+            <item
+                android:id="@+id/changePw"
+                android:title="Change Password"
+                android:icon="@drawable/baseline_security_24"/>
+        </menu>
+    </item>
+
+    <item android:title="More Info and Support ">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:title="Help and Support"
+                android:icon="@drawable/baseline_help_24"/>
+
+            <item
+                android:id="@+id/about"
+                android:title="About"
+                android:icon="@drawable/baseline_info_24"/>
+        </menu>
+    </item>
+
+</menu>

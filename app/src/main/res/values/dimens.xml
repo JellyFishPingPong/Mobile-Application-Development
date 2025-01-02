@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="userInputRadius">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="faq_margin_top">30dp</dimen>
+    <dimen name="forum_button_size">30dp</dimen>
+    <dimen name="radio_text_size">15sp</dimen>
+    <dimen name="radio_margin">10dp</dimen>
+</resources>

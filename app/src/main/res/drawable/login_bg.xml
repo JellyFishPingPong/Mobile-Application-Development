@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/login_bg" android:height="1000dp" android:width="1000dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/app_color"></solid>
+        </shape>
+    </item>
+    <item
+        android:width="400dp"
+        android:height="400dp" >
+        <rotate android:fromDegrees="60"
+            android:pivotX="55%"
+            android:pivotY="10%">
+        <shape>
+            <solid android:color="@color/mud_yellow"></solid>
+        </shape>
+        </rotate>
+    </item>
+
+
+</layer-list>

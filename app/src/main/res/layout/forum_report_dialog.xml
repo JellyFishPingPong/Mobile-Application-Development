@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bottom_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Why are you reporting this post?"
+        android:textColor="@color/white"
+        android:background="@color/app_color"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/report_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+    
+    <Button
+        android:id="@+id/dialog_report_button"
+        android:enabled="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Report"
+        android:backgroundTint="@color/report_button"
+        android:letterSpacing="0"
+        android:textColor="@color/report_button_text"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ChangePwFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp">
+
+        <ImageView
+            android:id="@+id/backImage"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/back_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/changePwTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="@id/backImage"
+            app:layout_constraintBottom_toBottomOf="@id/backImage"
+            app:layout_constraintStart_toEndOf="@id/backImage"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/changePwParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/changePwParagraph"
+            app:layout_constraintTop_toBottomOf="@id/changePwTitle" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/currentPwBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Current Password"
+            app:boxCornerRadiusBottomEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusBottomStart="@dimen/userInputRadius"
+            app:boxCornerRadiusTopEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusTopStart="@dimen/userInputRadius"
+            app:endIconMode="password_toggle"
+            app:helperText=""
+            app:helperTextTextColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/changePwParagraph">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/currentPwEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/newPwBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="New Password"
+            app:boxCornerRadiusBottomEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusBottomStart="@dimen/userInputRadius"
+            app:boxCornerRadiusTopEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusTopStart="@dimen/userInputRadius"
+            app:endIconMode="password_toggle"
+            app:helperText=""
+            app:helperTextTextColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/currentPwBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/newPwEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:imeOptions="actionNext"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/retypeNewPwBox"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Retype New Password"
+            app:boxCornerRadiusBottomEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusBottomStart="@dimen/userInputRadius"
+            app:boxCornerRadiusTopEnd="@dimen/userInputRadius"
+            app:boxCornerRadiusTopStart="@dimen/userInputRadius"
+            app:endIconMode="password_toggle"
+            app:helperText=""
+            app:helperTextTextColor="@color/red"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/newPwBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/retypeNewPwEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cursorVisible="true"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@null" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/changePwButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="35dp"
+            android:backgroundTint="@color/grey"
+            android:text="Change Password"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/retypeNewPwBox" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/faq"
+        android:icon="@drawable/baseline_circle_24"
+        android:title="@string/faq"/>
+    <item android:id="@+id/getStarted"
+        android:icon="@drawable/baseline_circle_24"
+        android:title="@string/getting_started"/>
+    <item android:id="@+id/troubleshoot"
+        android:icon="@drawable/baseline_circle_24"
+       android:title="@string/troubleshooting"/>
+    <item android:id="@+id/privacy"
+        android:icon="@drawable/baseline_circle_24"
+        android:title="@string/privacy_policy"/>
+</menu>

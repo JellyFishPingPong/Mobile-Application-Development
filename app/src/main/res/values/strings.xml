@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Farmanac</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="companyName">Farmanac</string>
+    <string name="register_title">Register</string>
+    <string name="registerMsg">Hi, Welcome To Farmanac !</string>
+    <string name="forgotPw">Forgot your password ?</string>
+    <string name="loginBtn">Log In</string>
+    <string name="termMsg">By continuing, you agree with our Terms and Privacy Policy</string>
+    <string name="loginTitle">Log In</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="discardChange">Discard</string>
+
+    <string name="required">Required*</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="pw">Password</string>
+    <string name="contactNum">Contact Number</string>
+    <string name="occupation">Occupation</string>
+    <string name="country">Country</string>
+    <string name="user_profile_picture">User profile picture</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="changePwParagraph"><![CDATA[You\'ll be logged out of all sessions except this one to protect your account if anyone is trying to gain access. \n\nYour password must be at least 8 characters and should include a combination of lowercase, uppercase letters and special characters (@#$%^&+=)]]></string>
+    <string name="missionParagraph">At Farmanac, our mission is clear: to empower individuals and communities around the world with the knowledge, resources, and tools they need to become successful farmers and contribute to a future with zero hunger. We believe that farming is not only a vital profession but also a way of life that connects us to the Earth and nourishes both our bodies and souls.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="promoting_sustainable_farming">Promoting Sustainable Farming</string>
+    <string name="promote_sustainable_farming_paragraph">We understand the importance of sustainable farming practices in preserving our environment and ensuring the long-term viability of agriculture. Through our app, we provide comprehensive information on organic farming, permaculture, regenerative agriculture, and other sustainable methods. Our aim is to help farmers minimize their ecological footprint, protect biodiversity, and cultivate healthy and nutritious crops while maintaining the health of our planet.</string>
+    <string name="educational_resources">Educational Resources</string>
+    <string name="educational_resources_paragraph">If you are seeking advanced techniques, our app offers a wealth of articles, tutorials, videos, and expert advice. We cover a wide range of topics, including crop rotation, soil health, pest management, irrigation systems, livestock care, and much more.</string>
+    <string name="community_and_collaboration">Community and Collaboration</string>
+    <string name="community_and_collaboration_paragraph">Farming is a journey best shared with others. Farmanac is built on the principles of collaboration and community. Our app provides a platform for farmers to connect, share their experiences, and learn from one another. Through discussion forums and virtual events, we foster a supportive environment where farmers can seek guidance, exchange ideas, and build meaningful relationships with like-minded individuals passionate about agriculture.</string>
+    <string name="zero_hunger_initiative_paragraph">We firmly believe that everyone has the right to access safe, nutritious, and affordable food. That is why Farmanac actively supports the global initiative to achieve zero hunger. In collaboration with international organizations, NGOs, and local communities, we work towards improving food security, reducing food waste, and implementing sustainable agricultural practices in regions that face significant challenges in feeding their populations.</string>
+    <string name="zero_hunger_initiative">Zero Hunger Initiative</string>
+    <string name="join_the_farmanac_community">Join the Farmanac Community</string>
+    <string name="join_the_farmanac_community_paragraph">Whether you are a farmer, aspiring farmer, educator, or simply someone interested in sustainable agriculture, we invite you to join the Farmanac community. Together, we can create a world where farming thrives, hunger becomes a thing of the past, and our planet flourishes. Download the Farmanac app today and embark on a journey towards sustainable farming and a better future for all.</string>
+    <string name="aboutMain">Welcome to Farmanac, your ultimate companion in the world of farming and agriculture. For more info, click on the options below:</string>
+    <string name="aboutMainTitle">About Farmanac</string>
+    <string name="faq1">1. What is Farmanac app and how does it work?\n\n Farmanac app is designed to be your virtual guide and companion on your farming journey, providing you with a wealth of knowledge, practical tips, and a supportive community of fellow enthusiasts.</string>
+    <string name="get_started_p4">4. How to create forum?\n\nTo create post in forum , user can click on the forum button in the bottom navigation bar. Then, click on the button called Create Forum. Once you are done creating, please click on the Save Changes ?button.</string>
+    <string name="get_started_p3">3. How to view or edit profile?\n\nTo view profile, user can click on the profile button in the bottom navigation bar. To edit your profile, click on the button called Edit Profile at the top-right corner. Once you are done editing, make sure to click on the Save Changes button.</string>
+    <string name="get_started_p2">.2 How to use the side navigation bar?\n\nThe side navigation bar have a variety of options for user such as Consultation, Equipment, Settings and Logout. To access these activity, please click on the related field.</string>
+    <string name="get_started_p1">1. How to use the bottom navigation bar?\n\nThe bottom navigation bar have icons that represent Home, Guide, Forum and Profile. To access these activity, please click on the related icon.</string>
+    <string name="verify_email">Verify Credentials</string>
+
+    <!--string array -->
+    <string-array name="Country">
+        <item>Select a country : </item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+    </string-array>
+
+    <!-- Home Page -->
+    <string name="home_page_volunteer_msg">Join us in cultivating a better future</string>
+    <string name="home_page_blog_msg">Uncover agricultural insights</string>
+    <string name="home_page_social_msg">More on Twitter</string>
+    <string name="home_page_news_msg">Latest farming news</string>
+    <string name="consultation_alert_msg">Pick a date one week from today.</string>
+    <string name="blog_url">https://www.agweb.com</string>
+    <string name="news_url">https://www.fwi.co.uk</string>
+    <string name="volunteer_url">https://www.volunteerworld.com/en/volunteer-abroad/agriculture</string>
+    <string name="social_url">https://twitter.com/AgDailyMedia</string>
+    <string name="faq">FAQ</string>
+    <string name="getting_started">Getting Started Guide</string>
+    <string name="troubleshooting">Troubleshooting</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="edit_post_title">Edit Post</string>
+    <string name="save_edit_btn">Save</string>
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="edit_profile_btn">Save Changes</string>
+    <string name="select_your_consultant">Select your Consultant</string>
+    <string name="time_slot_spinner_msg">Select preferred date and time</string>
+    <string name="booking_btn">Submit</string>
+    <string name="booking_title">Consultation Booking</string>
+    <string name="consultation_alert_btn">OK</string>
+    <string name="faq_title">Frequently Asked Questions (FAQ)</string>
+    <string name="faq2"><![CDATA[2. How to change password?\n\n Click on menu icon at top-right corner > Settings > Password & Security > Change Password. There user will be required to fill in their old and new password.]]></string>
+    <string name="faq3"><![CDATA[3. How to log out?\n\nClick on top-right corner menu icon to open side navigation bar > Log out]]></string>
+    <string name="faq4">4. How does Farmanac benefit me as a user?\n\nKnowledge is the cornerstone of successful farming. Farmanac is committed to delivering high-quality, practical, and accessible educational resources to farmers at all levels of experience. Whether you are a novice looking to start your own small garden or an experienced farmer seeking advanced techniques, our app offers a wealth of articles, tutorials, videos, and expert advice. We cover a wide range of topics, including crop rotation, soil health, pest management, irrigation systems, livestock care, and much more.</string>
+    <string name="welcome_msg">Hi, Welcome Back !</string>
+    <string name="privacy_policy_title">Privacy Policy and Terms of Service</string>
+    <string name="policy1">1. Data Collection and Usage \n\nThe farming app collects personal information such as name, email address, and farm details to create and manage user accounts. We may collect and store data related to your farm, crops, livestock, tasks, expenses, and income for the purpose of providing the app\'s functionality. \n\nThe app may collect location information to provide localized weather forecasts and other relevant features. We do not sell or share your personal information with third parties unless required by law or with your explicit consent.</string>
+    <string name="policy2">2. Data Security and Retention \n\nWe implement reasonable security measures to protect your data from unauthorized access, alteration, or disclosure. We retain your personal information for as long as necessary to provide the app\'s services and as required by applicable laws.</string>
+    <string name="policy3">3. Cookies and Tracking Technologies \n\nThe app may use cookies or similar tracking technologies to enhance user experience and gather usage data. You have the option to disable or manage cookies through your device or browser settings.</string>
+    <string name="policy4">4. Changes to the Privacy Policy \n\nWe reserve the right to update or modify the privacy policy at any time. Any changes will be communicated through the app or website. By continuing to use the app, you agree to the updated policy.</string>
+    <string name="tos1">1. Acceptance of Terms \n\nBy downloading, installing, or using the farming app, you agree to comply with these terms of service.</string>
+    <string name="support1">1. App Not Opening or Crashing \n\na) Make sure you have the latest version of the app installed. Check the App Store or Google Play Store for any available updates. \n\nb) Close the app completely and restart your device. This can help resolve minor glitches. \n\nc) Clear the app\'s cache or data. Go to your device\'s settings, find the app in the application manager, and clear the cache or data. \n\nd) Uninstall and reinstall the app. This can help resolve any corrupted files or installation issues.</string>
+    <string name="support2">2. Data Synchronization Issues \n\na) Check your internet connection. Ensure you have a stable internet connection to sync your data. \n\nb) Verify that you are logged in with the same account on all devices. Inconsistent account logins can lead to syncing problems.</string>
+    <string name="support3">3. Problems Adding or Updating Farm Information \n\na) Double-check your input. Ensure you are providing accurate and valid information when adding or updating farm details. \n\nb) Check for any required fields. Make sure you have filled out all the necessary fields before saving or updating your farm information. \n\nc) Contact customer support. If you continue to experience issues, reach out to the app\'s customer support for further assistance.</string>
+
+    <array name="consultant">
+        <item>Please select the consultant</item>
+        <item>Oliver</item>
+        <item>Law Qian Wen</item>
+        <item>Lem Chao Han</item>
+    </array>
+
+    <array name="country">
+        <item>Please select your country</item>
+        <item>Malaysia</item>
+        <item>Singapore</item>
+        <item>Thailand</item>
+    </array>
+
+    <string-array name="consultant_time">
+        <item>Please select the time slot</item>
+        <item>08:00 am - 10:00 am</item>
+        <item>10:00 am - 12:00 pm</item>
+        <item>02:00 pm - 04:00 pm</item>
+        <item>04:00 pm - 06:00 pm</item>
+        <item>06:00 pm - 08:00 pm</item>
+    </string-array>
+</resources>
